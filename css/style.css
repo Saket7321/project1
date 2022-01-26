@@ -1,0 +1,453 @@
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: white;
+}
+
+code {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+	font-size: 63%;
+	scroll-behavior: smooth;
+}
+
+h2 {
+	font-size: 3rem;
+	font-weight: 600;
+}
+
+.row {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+.header-01 .navbar {
+	transition: 0.5s;
+}
+
+.navbar-brand {
+	font-size: 3rem !important;
+	color: #fff !important;
+	padding-left: 21rem;
+	font-weight: bolder;
+}
+
+.collapse {
+	padding-right: 22rem;
+}
+
+.nav-link {
+	font-size: 1.5rem;
+	padding: 1rem 1.5rem !important;
+	color: #fff !important;
+	transition: .5s;
+}
+.nav-link:hover {
+	color: #f5e903 !important;
+}
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+	color: #f5e903 !important;
+}
+.carousel-card {
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.carousel-item {
+	margin-top: -40px;
+}
+
+li {
+	list-style: none;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.carousel-caption p {
+	font-size: 5.5rem;
+	color: #fff;
+	padding-left: 48px;
+}
+
+.carousel-caption .caption-01 {
+	margin-top: -30px;
+}
+
+.carousel-caption span {
+	padding-left: 52px;
+	font-size: 1.5rem;
+	max-width: 60rem;
+}
+
+.carousel-caption .caption-02 {
+	padding-left: 52px;
+	font-size: 1.5rem;
+	max-width: 60rem;
+}
+
+.carousel-indicators {
+	position: absolute;
+	bottom: 8rem;
+	left: -81rem;
+}
+
+.carousel-indicators [data-bs-target] {
+	height: 6px;
+	width: 7px;
+	border-radius: 100%;
+	position: relative;
+}
+
+.carousel-caption {
+	top: 18rem;
+	text-align: left;
+}
+
+.button-01 {
+	margin-left: 52px;
+	background-color: #f5e903;
+}
+
+.button-02 {
+	background: #82589f;
+	color: #fff;
+}
+
+.carousel-caption button .second_row button {
+	padding: 1rem 2rem;
+	font-size: 1.4rem;
+	border: 0;
+	outline: none;
+	color: #fff;
+	transition: .5s;
+}
+
+.carousel-caption .button-02:hover {
+	background: #f5e903;
+	color: #000;
+}
+.carousel-caption .button-01:hover {
+	background: #82589f;
+	color: #fff;
+}
+.w-100 {
+	height: 100vh;
+}
+
+button {
+	border: none;
+	outline: none;
+	background: #fff;
+	color: #000;
+	font-size: 1.5rem;
+	padding: 1rem 2rem;
+	transition: 0.5s;
+	margin-top: 10px;
+}
+.components-03-header {
+	text-align: center;
+	font-size: 4rem;
+	font-weight: bolder;
+}
+
+.components-03-para {
+	color: grey;
+	text-align: left;
+	line-height: 1.5;
+	font-size: 2rem;
+}
+
+.components-03-data {
+	margin-top: 4rem;
+	padding: 0 25%;
+}
+
+.components-03-image {
+	height: 150px;
+	width: auto;
+	max-width: 100%;
+}
+
+.components-03-row2 {
+	font-size: 1.3rem;
+}
+
+.components-03-row2-div {
+	background-color: #72147e;
+	height: 70px;
+	width: 70px;
+	border-radius: 100%;
+	margin: 0 auto;
+}
+
+.components-03-row2-image {
+	height: 40px;
+	width: 40px;
+	margin-top: 20px;
+	color: #fff;
+	font-size: 2.5rem;
+	padding-left: 2.3rem;
+}
+
+.components-03-row2-card-heading {
+	font-weight: 600;
+	padding: 10% 5% 10% 0;
+	margin-left: 7rem;
+	color: #72147e;
+}
+
+.components-03-row2-card-text {
+	padding: 0 10% 5% 10%;
+	color: #878686;
+}
+
+.components-03-row2-button-01 {
+	background-color: #ffd451;
+	color: black;
+}
+.components-03-row2-button-02 {
+	background-color: #530e5c;
+	color: white;
+}
+.components-03-row2-button-02:hover {
+	background-color: #ffd451;
+	color: black;
+}
+.components-03-row2-button-01:hover {
+	background-color: #301b3f;
+	color: white;
+}
+
+.button-style {
+	padding-left: 5rem;
+}
+
+.icon {
+	text-align: center;
+	height: 6rem;
+	width: 6rem;
+	border-radius: 50%;
+	background: #82589f;
+	margin: 1rem 0;
+}
+.icon i {
+	font-size: 2rem;
+	line-height: 6rem;
+	color: #fff;
+}
+#project-01 {
+	padding-top: 2%;
+	font-size: medium;
+}
+
+#project-01 h2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.project-01-card {
+	margin: 0;
+	padding: 0;
+	border-radius: 0;
+	border: 0;
+}
+
+.card-image {
+	width: 100%;
+	height: 22vw;
+	object-fit: cover;
+}
+
+.project-01-card-body1 {
+	background-color: #e0e0e0;
+	text-align: left;
+	padding: 15% 10%;
+}
+
+.project-01-card-body2 {
+	background-color: #c9c7c7;
+	text-align: left;
+	padding: 15% 10%;
+}
+
+.project-01-card-body1:hover {
+	background-color: #ffd451;
+}
+
+.project-01-card-body2:hover {
+	background-color: #ffd451;
+}
+
+.project-01-card-title {
+	color: black;
+	font-size: larger;
+	font-weight: bolder;
+}
+
+.project-01-card-text {
+	color: #5e5b5b;
+}
+
+.project-01-button {
+	background-color: white;
+	border: 0;
+	color: #303030;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.project-01-button:hover {
+	background-color: #72147e;
+	color: white;
+}
+/* /* COMPONENT 7 : TEAMS :  */
+
+.details{
+	margin-top: 10rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 5rem;
+}
+
+.teammembers {
+	padding: 0 25%;
+	padding-top: 3%;
+}
+
+.serial-card {
+	border: 0;
+	padding: 6%;
+}
+.saket {
+	margin: 0 auto;
+	background-color: #72147e;
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+}
+
+.profile {
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.icon-01 {
+	position: absolute;
+	top: 38%;
+	left: 37%;
+	transform: translate(-50%, -50%);
+	font-size: 2.2rem;
+	color: white;
+}
+
+.icon-02 {
+	position: absolute;
+	top: 38%;
+	left: 51%;
+	transform: translate(-40%, -40%);
+	color: white;
+	font-size: 2.2rem;
+}
+
+.icon-03 {
+	position: absolute;
+	top: 37%;
+	left: 65%;
+	transform: translate(-30%, -30%);
+	color: white;
+	font-size: 2.2rem;
+}
+
+.icon-03 {
+	opacity: 0;
+}
+
+.serial-div:hover .icon-03 {
+	opacity: 1;
+}
+
+.icon-02 {
+	opacity: 0;
+}
+
+.serial-div:hover .icon-02 {
+	opacity: 1;
+}
+
+.icon-01 {
+	opacity: 0;
+}
+
+.srial-div:hover .icon-01 {
+	opacity: 1;
+}
+
+.serial-image:hover {
+	opacity: 0.4;
+}
+
+.serial2-heading {
+	margin-top: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-size: large;
+	font-weight: bold;
+}
+
+.card-text {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-size: small;
+	font-weight: 300;
+}
+.contactS-image {
+	max-width: 100%;
+	max-height: 100%;
+}
+.contactS-side1 {
+	padding: 0;
+}
+.contactS-side2 {
+	text-align: left;
+	margin: 0;
+	background-color: #ffd451;
+	padding-left: 3%;
+}
+.contactS-heading {
+	padding: 6% 0 1% 0;
+}
+
+.contactS-form {
+	padding-left: 2%;
+	width: 300px;
+}
+.contactS-label {
+	font-size: 12px;
+	font-weight: bold !important;
+}
+.contactS-sendbutton {
+	width: 100px;
+	background-color: #72147e;
+	color: white;
+}
+.contactS-sendbutton:hover {
+	background-color: #93549c;
+	color: white;
+}
+
